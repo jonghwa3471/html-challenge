@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap");
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: aquamarine;
+}
+
+.bg-box {
+  background-color: white;
+  padding: 20px 50px;
+}
+
+.header-column {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.main-info {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.main-info__column:first-child {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  border: 3px solid black;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-image {
+  font-size: 50px;
+}
+
+.main-info__column__text:first-child {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.main-info__column__text:last-child {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.buttons {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons__play {
+  width: 200px;
+  height: 60px;
+  border: 3px solid black;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  box-shadow: 0px 5px 0px 0px;
+  font-size: 24px;
+}
+
+.fa-play {
+  margin: 0px 10px;
+}
+
+.buttons__heart,
+.buttons__plus {
+  width: 60px;
+  height: 60px;
+  border: 3px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  box-shadow: 0px 5px 0px 0px;
+  font-size: 24px;
+}
+
+.music-list {
+  margin-top: 60px;
+  padding: 0px 50px;
+}
+
+.music-list__row {
+  display: flex;
+  align-items: center;
+}
+
+.music-list__row__column__box {
+  width: 60px;
+  height: 60px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: tomato;
+  margin: 20px 10px;
+}
+
+.music-list__row__column span:first-child {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.music-list__row:nth-child(2) .music-list__row__column__box {
+  background-color: pink;
+}
+
+.music-list__row:nth-child(3) .music-list__row__column__box {
+  background-color: blue;
+}
+
+.music-list__row:nth-child(4) .music-list__row__column__box {
+  background-color: aquamarine;
+}
