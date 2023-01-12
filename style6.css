@@ -1,0 +1,177 @@
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  background-color: yellow;
+  padding: 0px 10px;
+}
+
+.top-menu__column:nth-child(2) span {
+  font-size: 30px;
+  font-family: "Varela Round", sans-serif;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 90%;
+  background-color: white;
+  border-style: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 123px;
+}
+
+.header__search-box {
+  border: none;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  opacity: 0.5;
+}
+
+h1 {
+  margin: 0px 20px;
+  margin-top: 50px;
+  font-family: "Varela Round", sans-serif;
+  font-size: 30px;
+}
+
+.main-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main-info__column {
+  margin: 0px 10px;
+}
+
+.main-info__column img {
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 150px;
+  height: 230px;
+  border-radius: 10px;
+}
+
+.no {
+  font-size: 24px;
+}
+
+.journey {
+  font-size: 17px;
+  opacity: 0.5;
+  margin: 10px 0px;
+}
+
+.stars {
+  margin-top: 10px;
+}
+
+.two-buttons {
+  display: flex;
+  margin-top: 10px;
+}
+
+.two-buttons__column {
+  width: 100px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 0px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.book-button {
+  margin-left: -70px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 70px;
+}
+
+.book {
+  width: 120px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.books {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.book-star {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.book-star img {
+  width: 100px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.popular {
+  margin: 10px 20px;
+}
+
+.authors img {
+  width: 120px;
+  height: 140px;
+}
+
+.authors {
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.authors-column {
+  margin-left: 20px;
+}
+
+.authors-column h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.authors-column span {
+  opacity: 0.5;
+}
