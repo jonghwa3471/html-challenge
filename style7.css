@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+body {
+  background-color: whitesmoke;
+  font-family: "Nunito", sans-serif;
+}
+.app {
+  width: 100%;
+  display: flex;
+}
+
+.screen {
+  width: 360px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 0px 20px;
+}
+
+.left-screen {
+  height: 790px;
+}
+
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+  opacity: 0.8;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+}
+
+.profile img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.profile h5 {
+  margin-top: -20px;
+  opacity: 0.6;
+}
+
+.profile__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile__buttons__shuffle {
+  width: 120px;
+  height: 40px;
+  background-color: rgb(34, 34, 34);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+  margin: 0px 5px;
+}
+
+.profile__buttons__like {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+  margin: 0px 5px;
+}
+
+.profile__buttons__like span {
+  opacity: 0.7;
+}
+
+.fa-heart {
+  margin-right: 5px;
+  color: rgb(34, 34, 34);
+}
+
+.playlist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding: 0px 30px;
+}
+
+.playlist__column img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.playlist__column h5 {
+  opacity: 0.5;
+}
+
+.playlist__column h4 {
+  margin-top: -25px;
+}
+
+.playlist__column:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playlist__column:last-child {
+  opacity: 0.5;
+}
+
+.img {
+  position: relative;
+}
+
+.img img {
+  opacity: 0.7;
+}
+
+.fa-chart-simple {
+  position: absolute;
+  top: 13px;
+  right: 35px;
+  color: white;
+  font-size: 24px;
+}
+
+.wake-me-up {
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.control-bar {
+  height: 70px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(34, 34, 34);
+  border-radius: 40px;
+  position: fixed;
+  width: 360px;
+  box-sizing: border-box;
+  bottom: 170px;
+}
+
+.control-bar__column:first-child {
+  display: flex;
+  flex-direction: column;
+}
+
+.control-bar__column h4 {
+  margin-top: -20px;
+  color: white;
+}
+
+.control-bar__column h5 {
+  color: white;
+  opacity: 0.4;
+}
+
+.control-bar__column:last-child {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.fa-backward-step,
+.fa-forward-step {
+  font-size: 20px;
+}
+
+.fa-pause {
+  font-size: 40px;
+  margin: 0px 30px;
+}
+
+.right-screen {
+  margin-left: 20px;
+}
+
+.album {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.album img {
+  width: 280px;
+  height: 280px;
+  border-radius: 20px;
+  box-shadow: 5px 20px 50px rgba(0, 0, 0, 0.7);
+}
+
+.album h1 {
+  margin-top: 60px;
+  margin-bottom: -20px;
+}
+
+.album h5 {
+  opacity: 0.6;
+}
+
+.play-bar {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.5;
+  margin-bottom: -15px;
+}
+
+.play-bar__graph {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 5px;
+  border-radius: 2px;
+  position: relative;
+}
+
+.fa-circle {
+  font-size: 12px;
+  position: absolute;
+  top: -3px;
+  left: 190px;
+}
+
+.play-bar__graph2 {
+  width: 60%;
+  background-color: rgb(34, 34, 34);
+  height: 5px;
+  border-radius: 2px;
+  position: absolute;
+  top: 0px;
+}
+
+.right-screen__controls {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.fa-circle-play {
+  font-size: 70px;
+}
+
+.fa-repeat,
+.fa-shuffle {
+  opacity: 0.3;
+}
